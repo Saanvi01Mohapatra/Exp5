@@ -30,6 +30,7 @@ The switch statement evaluates an expression and executes a block of code corres
 The if statement evaluates a condition. If the condition is true, a block of code is executed.
 
 
+```
 //Saanvi Mohapatra
 //23070123110
 //ENTC B2
@@ -55,14 +56,17 @@ int main() {
     
     return 0;
 }
-//PS C:\Users\asus\Desktop\cds> cd "c:\Users\asus\Desktop\cds\" ; if ($?) { g++ if.cpp -o if } ; if ($?) { .\if }
-//output:
-//Enter value for a: 5
+```
+
+## output:
+```//Enter value for a: 5
 //Enter value for b: 6
 // a is less than b
+```
 
 ### CODE 2:
 
+```
 //Saanvi Mohapatra
 //23070123110
 //entc b2 
@@ -118,11 +122,14 @@ switch (month) {
 }
 return 0;
 }
-//PS C:\Users\asus\Desktop\cds> cd "c:\Users\asus\Desktop\cds\" ; if ($?) { g++ month.cpp -o month } ; if ($?) { .\month }
-//enter number for month  5
-//May
-
+```
+## Output:
+```
+enter number for month  5
+May
+```
 ### CODE 3:
+```
 //Saanvi Mohapatra
 //23070123110
 //entc b2 
@@ -162,14 +169,16 @@ int main() {
 
     return 0;
 }
-//PS C:\Users\asus\Desktop\cds> cd "c:\Users\asus\Desktop\cds\" ; if ($?) { g++ calculator.cpp -o calculator } ; if ($?) { .\calculator }
-//Enter operator (+, -, *, /): *
-//Enter two numbers: 5
-//6
-//Result: 30
-
+```
+## Output:
+```
+Enter operator (+, -, *, /): *
+Enter two numbers: 5
+6
+Result: 30
+```
 ### CODE 4:
-
+```
 //Saanvi Mohapatra
 //23070123110
 //entc b2 
@@ -198,12 +207,14 @@ switch (number)
 
  return 0;
 }
-//PS C:\Users\asus\Desktop\cds> cd "c:\Users\asus\Desktop\cds\" ; if ($?) { g++ default.cpp -o default } ; if ($?) { .\default }
-//Enter a number: 5
-//The number is positive.
-
-CODE 5:
-
+```
+## Output:
+```
+Enter a number: 5
+The number is positive.
+```
+## CODE 5:
+```
 //Saanvi Mohapatra
 //23070123110
 //entc b2 
@@ -236,7 +247,10 @@ int main() {
 
     return 0;
 }
-//PS C:\Users\asus\Desktop\cds> cd "c:\Users\asus\Desktop\cds\" ; if ($?) { g++ nestedif.cpp -o nestedif } ; if ($?) { .\nestedif }
-//Enter the score for m2: 25
-//Enter the score for cds: 45
-//Fail in M2 but pass in cds
+```
+## Output:
+```
+Enter the score for m2: 25
+Enter the score for cds: 45
+Fail in M2 but pass in cds
+```
